@@ -21,4 +21,15 @@
   --gray-400: #878EA1;
   --gray-500: #C0C4CE;
   --gray-600: #E2E4E9;
+
+  /*Fontes*/
+
+  --title-lg: bold 56px/120% 'Asap';
+  --title-md: bold 24px/120% 'Asap';
+  --title-sm: bold 16px/120% 'Asap';
+
+  --subtitle: 20px/120% 'Inconsolata';
+
+  --text-md: 16px/140% 'Maven Pro';
+  --text-sm: 14px/140% 'Maven Pro';
 }

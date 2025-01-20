@@ -1,1 +1,238 @@
 @import url(global.css);
+
+.introduction {
+  background-image: url(../assets/background_intro.png);
+  background-size: cover;
+  height: 750px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 120px;
+}
+
+.introduction img {
+  height: 112px;
+  width: 112px;
+  margin-bottom: 56px;
+}
+
+.subtitle {
+  font: var(--subtitle);
+  color: var(--gray-500);
+}
+
+.subtitle span {
+  color: var(--red);
+}
+
+.title_lg {
+  font: var(--title-lg);
+  color: var(--gray-600);
+}
+
+.title_sm {
+  font: var(--title-sm);
+  color: var(--gray-600);
+}
+
+.text_sm {
+  font: var(--text-sm);
+  color: var(--gray-400);
+  width: 680px;
+  margin-bottom: 80px;
+}
+
+.tags {
+  display: flex;
+  gap: 16px;
+}
+
+.tag {
+  display: flex;
+  gap: 8px;
+  height: 40px;
+  padding: 8px 16px;
+  background-color: var(--gray-300);
+  border-radius: 999px;
+  font: var(--text-md);
+  color: var(--gray-500);
+  margin-bottom: 94px;
+}
+
+.tag img {
+  height: 24px;
+  width: 24px;
+}
+
+.doubledown img {
+  height: 32px;
+  width: 32px;
+}
+
+.work {
+  background-color: var(--gray-200);
+  height: 917px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 72px;
+  padding-bottom: 144px;
+}
+
+.work .subtitle {
+  color: var(--red);
+  margin-bottom: 8px;
+}
+
+.work .title_md {
+  font: var(--title-md);
+  color: var(--gray-600);
+  margin-bottom: 56px;
+}
+
+.work .projects {
+  display: grid;
+  grid-template: "a b c" "e f g";
+  gap: 24px; 
+}
+
+.project {
+  background-color: var(--gray-300);
+  width: 330px;
+  height: 280px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.project:hover {
+  border: solid var(--gray-400);
+}
+
+.thumbnail {
+  width: 306px;
+  height: 156px;
+  margin: 12px 12px 20px;
+  border-radius: 8px;
+}
+
+.project_title {
+  margin: 0 16px 8px;
+}
+
+.project_description {
+  height: auto;
+  width: auto;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.services {
+  background-color: var(--gray-100);
+  height: 480px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 88px;
+  padding-bottom: 120px;
+
+  .subtitle {
+    color: var(--red);
+    margin-bottom: 8px;
+  }
+
+  .title_md {
+    font: var(--title-md);
+    color: var(--gray-600);
+    margin-bottom: 56px;
+  }
+}
+
+.service_grid {
+  display: flex;
+  gap: 24px;
+}
+
+.box {
+  width: 280px;
+  height: 155px;
+  border: 2px solid;
+  border-color: var(--gray-200);
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.service_title {
+  margin-top: 10px;
+  margin-bottom: 8px;
+}
+
+.contact {
+  background-image: url(../assets/Background_Contacts.png);
+  background-size: cover;
+  height: 787px;
+  width: auto;
+  padding-top: 128px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .subtitle {
+    color: var(--purple);
+    margin-bottom: 8px;
+  }
+
+  .title_md {
+    font: var(--title-md);
+    color: var(--gray-600);
+    margin-bottom: 8px;
+  }
+
+  .text_md {
+    font: var(--text-md);
+    color: var(--gray-500);
+    margin-bottom: 48px;
+  }
+}
+
+.contact_grid {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contact_box {
+  background-color: var(--gray-300);
+  border-radius: 8px;
+  display: flex;
+  font: var(--text-md);
+  color: var(--gray-500);
+  width: 400px;
+  height: 68px;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 24px;
+
+  .text {
+    width: 288px;
+  }
+
+  .logo {
+    height: 28px;
+    width: 28px;
+    margin-right: 12px;
+  }
+
+  .arrow {
+    height: 20px;
+    width: 20px;
+    margin-left: 12px;
+  }
+}
+
+.contact_box:hover {
+  border: solid var(--blue);
+}

@@ -108,7 +108,7 @@
 }
 
 .project:hover {
-  border: solid var(--gray-400);
+  outline: solid var(--gray-400);
 }
 
 .thumbnail {
@@ -234,5 +234,5 @@
 }
 
 .contact_box:hover {
-  border: solid var(--blue);
+  outline: solid var(--blue);
 }
